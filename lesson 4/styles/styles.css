@@ -1,0 +1,29 @@
+p{
+    background-color: red;
+}
+
+.mypara{
+    background-color: green;
+}
+ #byui{
+    background-color: blue;
+}
+
+p.mypara{
+    background-color: purple;
+}
+
+#byui.mypara{
+    background-color: orangered;
+}
+main p{
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: orange;
+    color: red;
+}
+a:link, a:visited{
+    color:green;
+}
