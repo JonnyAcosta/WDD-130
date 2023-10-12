@@ -1,0 +1,12 @@
+
+.grey-div{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.grey-div img{
+    width: 240px;
+    border: 10px solid #3f3f3f;
+    margin:2em;
+    border-radius: 50%;
+}
