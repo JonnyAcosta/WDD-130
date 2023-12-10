@@ -1,0 +1,126 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding:70px;
+    font-size: 30px;
+}
+nav a:hover{
+    background-color: #fb8500;
+}
+
+header{
+    background-color: #a2d2ff;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.homepage{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    background-color: #fb8500;
+}
+
+.home-img{
+    grid-column: 2/ span 4;
+    grid-row: 1/6;
+    width: 200px 0;
+    height: auto;
+    
+}
+.home-img img{
+    margin-right: 95px;
+}
+
+.home-content{
+    grid-column: 2/6;
+    grid-row: 6/6;
+    text-align: center;
+    letter-spacing: .1em;
+    font-size: 1.3em;
+    background-color: #a2d2ff;
+    border-radius: 5%;
+    border-color:  black;
+}
+
+footer{
+    background-color: #a2d2ff;
+    color:#1d3557;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.page2-home
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.page2-img
+{
+    grid-column: 1/6;
+    grid-row: 2/6;
+    width: 200%;
+}
+.page2-team
+{
+    grid-column: 6/6;
+    grid-row: 2/6;
+}
+.page2-content{
+    grid-column: 3/6;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 25px;
+}
+
+.page3-home
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.page3-img
+{
+    grid-column: 1/6;
+    grid-row: 2/6;
+    width: 200%;
+}
+.page3-ball
+{
+    grid-column: 6/6;
+    grid-row: 2/6;
+}
+.page3-content{
+    grid-column: 3/6;
+    grid-row: 2/6;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.page3-summary
+{
+    grid-column: 1/6;
+    grid-row: 6/6;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.page3-explain
+{
+    grid-column: 6/6;
+    grid-row: 6/6;
+}
