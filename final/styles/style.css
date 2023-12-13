@@ -34,7 +34,7 @@ header{
 .home-img{
     grid-column: 2/ span 4;
     grid-row: 1/6;
-    width: 200px 0;
+    width: 100px 0;
     height: auto;
     
 }
@@ -66,24 +66,28 @@ footer{
 .page2-home
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #fb8500;
 }
 .page2-img
 {
-    grid-column: 1/6;
-    grid-row: 2/6;
-    width: 200%;
+    grid-column: 1/10;
+    grid-row: 3/10;
 }
 .page2-team
 {
-    grid-column: 6/6;
-    grid-row: 2/6;
+    grid-column: 10/10;
+    grid-row: 3/10;
 }
 .page2-content{
-    grid-column: 3/6;
-    grid-row: 2/3;
+    grid-column: 5/10;
+    grid-row: 1/8;
     text-align: center;
     padding: 25px;
+    font-size: 1.5em;
+    font-family: PT Serif, Helvetica, sans-serif;
+    background-color: #a2d2ff;
+    border-radius: 5%;
 }
 
 .page3-home
