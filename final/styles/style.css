@@ -35,7 +35,6 @@ header{
 .home-img{
     grid-column: 2/ span 4;
     grid-row: 1/6;
-    width: 100% 0;
     height: 100%;
 }
 
@@ -45,7 +44,6 @@ header{
 }
 .fifa-game{
     height: 100%;
-    width: 100;
 }
 
 .home-content{
