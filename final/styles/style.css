@@ -93,41 +93,56 @@ footer{
 .page3-home
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    background-color: #fb8500;
 }
 .page3-img
 {
-    grid-column: 1/6;
-    grid-row: 2/6;
+    grid-column: 1/8;
+    grid-row: 2/8;
     width: 200%;
 }
 .page3-ball
 {
-    grid-column: 6/6;
-    grid-row: 2/6;
+    grid-column: 8/8;
+    grid-row: 2/4;
 }
 .page3-content{
-    grid-column: 3/6;
-    grid-row: 2/6;
-    display: flex;
+    grid-column: 4/8;
+    grid-row: 2/8;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
-}
-.page3-summary
-{
-    grid-column: 1/6;
-    grid-row: 6/6;
-    text-align:center;
-    margin-top: 10px;
+    font-family: PT Serif, Helvetica, sans-serif;
+    font-size:1.5em;
+    background-color: #a2d2ff;
+    border-radius: 10%;
+    margin-right: 10%;
 }
 
-.page3-explain
+.page3-train
 {
-    grid-column: 6/6;
-    grid-row: 6/6;
+    grid-column: 1/4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+    font-size: 2em;
+    background-color: #a2d2ff;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
+
+.page3-football{
+    grid-column: 8/8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+    font-size: 2em;
+    background-color: #a2d2ff;
+    border-radius: 10%;
+}
+
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
